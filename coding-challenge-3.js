@@ -1,15 +1,14 @@
-/* udemy coding challenge #3 from the Complete JavaScript Course 2021: From Zero to Expert!
-   Challenge completed with some additions - any amount of teams is possible (code is more scalable)*/
+// find the winner(s) of a competition and only give them a prize if their score is equal to or higher than minimumScore
 let teamAvgScores = [],
     teamScores = [
         [96, 109, 89],
         [88, 93, 110],
         [96, 89, 108],
-        [96, 89, 103],
-        [97, 85, 108]];
+        [96, 109, 89],
+        [96, 109, 89]];
 
 
-function avgScore(arr, index) {
+const avgScore = (arr, index) => {
     // providing an initial value
     teamAvgScores[index] = 0;
 
@@ -20,7 +19,7 @@ function avgScore(arr, index) {
 }
 
 
-function determineWinner() {
+const determineWinner = () => {
     const minimumScore = 90;
 
     // in this context its OK to use 0 and not the first element of an array for the biggestScore
@@ -61,10 +60,10 @@ The results:
 `);
 
 
-if (whoWon.length > 0)
+if (whoWon.length > 1)
     for (let i = 0; i < whoWon.length; i++)
         console.log(`Team #${whoWon[i]} is a co-champion! Their score is ${teamAvgScores[whoWon[i] - 1].toFixed(2)}`)
 else if (whoWon.length === 1)
-    console.log(`Team #${whoWon} is a champion! Their score is ${teamAvgScores[whoWon[i] - 1].toFixed(2)}`)
+    console.log(`Team #${whoWon} is a champion! Their score is ${teamAvgScores[0].toFixed(2)}`)
 else
     console.log('No winner was found');
