@@ -2,7 +2,7 @@
 
 Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again. It was renewed in 2021 so a lot of useful new information should be there
 
-<b>Most important theory topics:</b>
+<b>Important theory topics:</b>
 
 <ul>
     <li>
@@ -17,7 +17,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 
 <ul>
     <li>
-        Falsy values:
+        Falsy values ('if (falsyValue)' would meet the condition):
         <ul>
         0
         ''
@@ -25,6 +25,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     </li>
     <li>
         Use 'let' instead of 'var' because of scoping.
+    </li>
+        <li>
+        Methods have access to 'this'.
     </li>
     <li>
         2 ** 3 = 2 to the power of 3
