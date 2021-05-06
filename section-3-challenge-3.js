@@ -1,3 +1,4 @@
+// calculate and compare bmis
 'use strict';
 
 const Mark = {
@@ -12,7 +13,6 @@ const Mark = {
         return this.BMI;
     }
 }
-
 
 const John = {
     fullName: 'John Smith',
@@ -32,5 +32,5 @@ if (Mark.calcBMI() > John.calcBMI())
 // not calling the function again because {object}.BMI is already set
 else if (John.BMI > Mark.BMI)
     console.log(`${John.fullName}'s BMI (${John.BMI.toFixed(2)}) is higher than ${Mark.fullName}'s (${Mark.BMI.toFixed(2)})!`);
-else 
+else
     console.log(`BMIs are equal. ${John.BMI.toFixed(2)}`)

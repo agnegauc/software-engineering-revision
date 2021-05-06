@@ -1,5 +1,5 @@
+// calculate the tip and the total sum
 "use strict";
-
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [], totals = [];

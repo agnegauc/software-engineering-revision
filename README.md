@@ -11,6 +11,13 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Operator Precedence</a>
     </li>
+    <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements">Statements and declarations</a>
+    </li>
+    <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes">Object prototypes
+</a>
+    </li>
 </ul>
 
 <b>Extra revision if I forget these things:</b>
