@@ -33,4 +33,4 @@ if (Mark.calcBMI() > John.calcBMI())
 else if (John.BMI > Mark.BMI)
     console.log(`${John.fullName}'s BMI (${John.BMI.toFixed(2)}) is higher than ${Mark.fullName}'s (${Mark.BMI.toFixed(2)})!`);
 else
-    console.log(`BMIs are equal. ${John.BMI.toFixed(2)}`)
+    console.log(`BMIs are equal. ${John.BMI.toFixed(2)}`);

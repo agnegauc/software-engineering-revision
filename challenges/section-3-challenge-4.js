@@ -18,10 +18,10 @@ const calcAverage = arr => {
 
 for (let i in bills) {
     tips.push(calcTip(bills[i]));
-    totals.push(tips[i] + bills[i])
+    totals.push(tips[i] + bills[i]);
 }
 
 
-console.log(calcAverage(totals))
-console.log(tips)
-console.log(totals)
+console.log(calcAverage(totals));
+console.log(tips);
+console.log(totals);

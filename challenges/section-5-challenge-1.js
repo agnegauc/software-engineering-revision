@@ -18,6 +18,6 @@ const printForecast = (arr) => {
 }
 
 
-console.log(printForecast(temperatures[0]))
-console.log(printForecast(temperatures[1]))
-console.log(printForecast(temperatures[2]))
+temperatures.forEach(arr => {
+    console.log(printForecast(arr));
+})
