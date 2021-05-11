@@ -6,7 +6,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 
 <ul>
     <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits, typeof string</a>
     </li>
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Operator Precedence</a>
@@ -16,16 +16,20 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     </li>
 </ul>
 
+<b>Theory:</b>
+
+<ul>
+    <li>
+        Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
+    </li>
+</ul>
+
 <b>Extra revision if I forget these things:</b>
 
 <ul>
-<li>
-One line arrow functions don't require a 'return'.
-</li>
     <li>
-        Methods have access to 'this'.
+    One line arrow functions don't require a 'return'.
     </li>
-
     <li>
         Hoisting lets you use some types of variables and functions before they are declared.
     </li>
@@ -38,7 +42,12 @@ One line arrow functions don't require a 'return'.
     <li>
         A method's 'this' points to the object.
     </li>
-
+        <li>
+    Passing an object to a function and destructuring it is useful because functions with many params would require ordered params which is NOT the case with a destructured object.
+    </li>
+        <li>
+        Methods have access to 'this'.
+    </li>
 </ul>
 
 <h3>Type coercion:</h3>
@@ -53,14 +62,18 @@ One line arrow functions don't require a 'return'.
     <li>Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".</li>
 </ul>
 
-<h3>Launching JS related projects (e.g. React):</h3>
+<h3>Front end and JS related projects (e.g. React):</h3>
 <ul>
 <li>
-launch: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
+<strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
 </li>
-<li>error refreshing / : https://ui.dev/react-router-cannot-get-url-refresh/
+<li><strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
 </li>
-<li>http to https: https://serversforhackers.com/c/redirect-http-to-https-nginx
+<li><strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
+</li>
+<li><strong>CSS3 compared to CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
+</li>
+<li><strong>HTML5 compared to HTML4</strong>: can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
 </li>
 </ul>
 
