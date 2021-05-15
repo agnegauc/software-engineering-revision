@@ -1,6 +1,6 @@
 # js-revision-and-new-features
 
-Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again. It was renewed in 2021 so a lot of useful new information should be there
+Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again and creating and solving various revision exercises to properly understand these topics. It was renewed in 2021 so a lot of useful new information should be there.
 
 <b>Important theory topics:</b>
 
@@ -31,7 +31,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     One line arrow functions don't require a 'return'.
     </li>
     <li>
-        Hoisting lets you use some types of variables and functions before they are declared.
+        Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> will NOT work. 
     </li>
         <li>
         Heap - objects are stored in memory.
@@ -48,21 +48,34 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
         <li>
         Methods have access to 'this'.
     </li>
+    <li>
+Iterable values: arrays, strings, maps, sets, NOT OBJECTS. However, spread operator CAN be used on objects since ES2018.
+</li>
+            <li>
+        const objCopy = {...obj};
+        <br/>
+        However, the spread operator only copies the properties and ignores the prototype chain if I understand it properly in '<strong>9-DS-modern-operators-strings.js</strong>'
+    </li>
 </ul>
 
 <h3>Type coercion:</h3>
-<p>js automatically converts data types so the code works.</p>
-<p>example: console.log("I'm "+ 26 + "years old")</p>
-<p>example 2: console.log ('23' \*'2' ) => 46</p>
-<p>example 3: let n = '1'+1; n=n-1; console.log(n) => 10</p>
-
+<p>Javascript automatically converts data types so the code works, for example:</p>
+<ul>
+<li>console.log("I'm "+ 26 + "years old")</li>
+<li>console.log ('23' \*'2' ) <strong> => 46</strong></li>
+<li>
+<p>let n = '1'+1;</p> 
+<p>n=n-1;</p>
+<p>console.log(n)<strong>=> 10</strong></p>
+</li>
+</ul>
 <h3>General (not only in JS)</h3>
 <ul>
     <li>Paradigms (OOP, Procedural, Functional) - approach of structuring code which directs the coding technique.</li>
     <li>Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".</li>
 </ul>
 
-<h3>Front end and JS related projects (e.g. React):</h3>
+<h3>Front end and JS related (e.g. React):</h3>
 <ul>
 <li>
 <strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
@@ -71,9 +84,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 </li>
 <li><strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
 </li>
-<li><strong>CSS3 compared to CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
+<li><strong>CSS3 vs CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
 </li>
-<li><strong>HTML5 compared to HTML4</strong>: can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
+<li><strong>HTML5 vs HTML4</strong>: it can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
 </li>
 </ul>
 
