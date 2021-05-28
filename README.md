@@ -60,15 +60,47 @@ Iterable values: arrays, strings, maps, sets, NOT OBJECTS. However, spread opera
 
 <h3>Type coercion:</h3>
 <p>Javascript automatically converts data types so the code works, for example:</p>
-<ul>
-<li>console.log("I'm "+ 26 + "years old")</li>
-<li>console.log ('23' \*'2' ) <strong> => 46</strong></li>
-<li>
-<p>let n = '1'+1;</p> 
-<p>n=n-1;</p>
-<p>console.log(n)<strong>=> 10</strong></p>
-</li>
-</ul>
+
+```javascript
+console.log("I'm " + 26 + "years old");
+console.log("23" * "2"); // => 46
+
+let n = "1" + 1;
+n = n - 1;
+
+console.log(n); // => 10
+```
+
+<h3>Recursion: HTML tree traversal (ES6+, DOM)</h3>
+<div>
+    <p>
+        Check if the element has a child element and call the function with the leftmost child and repeat this step with its children until no leftmost child exists. Move up by 1 parent and call the function with the child that is on the right side (if leftmost was 0, then call with [1...; children.length)).
+    </p>
+
+```javascript
+const recursion = (el, amount = 4) => {
+  const prefix = "-".repeat(amount),
+    elDetailed = `${el.nodeName.toLowerCase()}${el.id && " #" + el.id}${
+      el.className && " ." + el.className
+    }`;
+
+  console.log(`${prefix} recursion(${elDetailed})`);
+  console.log(el);
+
+  for (let i = 0; i < el.children.length; i++) {
+    console.log(
+      `${prefix} ${elDetailed} has another child therefore another 'recursion' will be called`
+    );
+
+    recursion(el.children[i], amount + 4);
+  }
+
+  return console.log(`${prefix} RETURNED: recursion(${elDetailed})`);
+};
+```
+
+</div>
+    
 <h3>General (not only in JS)</h3>
 <ul>
     <li>Paradigms (OOP, Procedural, Functional) - approach of structuring code which directs the coding technique.</li>

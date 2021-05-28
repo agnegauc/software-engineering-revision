@@ -153,7 +153,7 @@ const destructuring = () => {
 }
 
 
-// used to unpack iterable values (arrays, strings, maps, sets, NOT OBJECTS)
+// used to unpack iterable values (arrays, strings, maps, sets). Can be used on objects (non-iterable values) since ES2018.
 const spreadOperator = () => {
     const arr = [7, 8, 9],
         newArr = [2, 4, ...arr];
@@ -178,9 +178,9 @@ const spreadOperator = () => {
     // console.log(`${...str}`) // => ERROR. multiple values separated by a comma are typically used only in arrays or functions
 
     const ingredients = [
-        // prompt('Ingredient #1'),
-        // prompt('Ingredient #2'),
-        // prompt('Ingredient #3')
+        prompt('Ingredient #1'),
+        prompt('Ingredient #2'),
+        prompt('Ingredient #3')
     ];
 
     restaurant.orderPasta(...ingredients); // Here is the pasta with ketchup, cheese, spices. ('ketchup', 'cheese', 'spices' as prompt inputs)
@@ -213,7 +213,4 @@ const spreadOperator = () => {
         console.log(Thomas.__proto__.constructor.name); // => Student
         console.log(ThomasJr.__proto__.constructor.name); // => Object
     };
-    revision()
 };
-
-spreadOperator();
