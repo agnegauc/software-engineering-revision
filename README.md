@@ -126,4 +126,5 @@ const recursion = (el, amount = 4) => {
 <ul>
     <li>https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90</li>
     <li>https://www.udemy.com/course/the-complete-javascript-course</li>
-    </ul>
+    <li>https://google.github.io/styleguide/jsguide.html</li>
+</ul>
