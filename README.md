@@ -6,7 +6,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 
 <ul>
     <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits, typeof string</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
     </li>
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Operator Precedence</a>
