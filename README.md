@@ -109,17 +109,18 @@ const recursion = (el, amount = 4) => {
 
 <h3>Front end and JS related (e.g. React):</h3>
 <ul>
-<li>
-<strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
-</li>
-<li><strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
-</li>
-<li><strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
-</li>
-<li><strong>CSS3 vs CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
-</li>
-<li><strong>HTML5 vs HTML4</strong>: it can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
-</li>
+    <li><strong>tsconfig for various projects </strong>https://github.com/tsconfig/bases</li>
+    <li>
+        <strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
+    </li>
+        <li><strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
+    </li>
+        <li><strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
+    </li>
+        <li><strong>CSS3 vs CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
+    </li>
+        <li><strong>HTML5 vs HTML4</strong>: it can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
+    </li>
 </ul>
 
 <h3>Sources:</h3>
