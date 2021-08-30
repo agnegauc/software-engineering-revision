@@ -1,4 +1,6 @@
-# js-revision-and-new-features
+# Software Engineering revision
+
+Temporarily focused on js.
 
 Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again and creating and solving various revision exercises to properly understand these topics. It was renewed in 2021 so a lot of useful new information should be there.
 
@@ -101,15 +103,15 @@ const recursion = (el, amount = 4) => {
 
 </div>
     
-<h3>General (not only in JS)</h3>
+<h3>General</h3>
 <ul>
     <li>Paradigms (OOP, Procedural, Functional) - approach of structuring code which directs the coding technique.</li>
     <li>Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".</li>
+    <li><a href="https://github.com/trekhleb/javascript-algorithms">Algorithms' comparison</a></li> 
 </ul>
 
 <h3>Front end and JS related (e.g. React):</h3>
 <ul>
-    <li><strong>tsconfig for various projects </strong>https://github.com/tsconfig/bases</li>
     <li>
         <strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
     </li>
