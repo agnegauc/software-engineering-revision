@@ -16,6 +16,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
     </li>
+    <li>
+        <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
+    </li>
 </ul>
 
 <b>Theory:</b>
