@@ -7,6 +7,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 <b>Important theory topics:</b>
 
 <ul>
+    <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox.</li>
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
     </li>
