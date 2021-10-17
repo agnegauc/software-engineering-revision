@@ -145,7 +145,11 @@ const recursion = (el, amount = 4) => {
     </li>
         <li><strong>HTML5 vs HTML4</strong>: it can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
     </li>
-    <li><strong>HTML entities </strong>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</strong>
+    <li>
+        <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
+            <strong>Common HTML entities used for typography</strong>
+        </a>
+    </li>
 </ul>
 
 <h3>Sources:</h3>
