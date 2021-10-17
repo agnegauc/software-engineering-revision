@@ -30,9 +30,6 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
     </li>
     <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Operator Precedence</a>
-    </li>
-    <li>
         <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
     </li>
     <li>
@@ -41,23 +38,19 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 </ul>
 
 <b>Theory:</b>
-
 <ul>
     <li>
         Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
     </li>
 </ul>
 
-<b>Extra revision if I forget these things:</b>
+<b>Extra revision:</b>
 
 <ul>
     <li>
-    One line arrow functions don't require a 'return'.
-    </li>
-    <li>
         Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> will NOT work. 
     </li>
-        <li>
+    <li>
         Heap - objects are stored in memory.
     </li>
     <li>
@@ -66,16 +59,10 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         A method's 'this' points to the object.
     </li>
-        <li>
-    Passing an object to a function and destructuring it is useful because functions with many params would require ordered params which is NOT the case with a destructured object.
-    </li>
-        <li>
+    <li>
         Methods have access to 'this'.
     </li>
     <li>
-Iterable values: arrays, strings, maps, sets, NOT OBJECTS. However, spread operator CAN be used on objects since ES2018.
-</li>
-            <li>
         const objCopy = {...obj};
         <br/>
         However, the spread operator only copies the properties and ignores the prototype chain if I understand it properly in '<strong>9-DS-modern-operators-strings.js</strong>'
