@@ -1,9 +1,24 @@
 # Software Engineering revision
 
-Temporarily focused on js.
+
+<b>General</b>
+<ul>
+    <li>Algorithms:</li>
+    <ul>
+        <li>
+            <a href='https://www.jenniferbland.com/time-complexity-analysis-in-javascript/'>Algorithm Time Complexity & Examples</a> 
+        </li>    
+        <li>
+            <a href='https://en.wikipedia.org/wiki/Time_complexity'>Time complexity - Wikipedia</a>
+        </li>
+    </ul>
+    
+</ul
+
+
 
 Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again and creating and solving various revision exercises to properly understand these topics. It was renewed in 2021 so a lot of useful new information should be there.
-
+    
 <b>Important theory topics:</b>
 
 <b>Web Development</b>
