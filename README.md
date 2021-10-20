@@ -35,6 +35,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
     </li>
+    <li>
+        <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
+    </li>
 </ul>
 
 <b>Theory:</b>
