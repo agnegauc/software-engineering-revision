@@ -26,7 +26,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
         <b>Best practises</b>
         <ul>
             <li>
-                <a href='https://javascript.info/structure'>Semicolons in every line</a>
+                <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>
             </li>
             <li>
                 <a href='https://javascript.info/strict-mode'>"use strict";</a>
@@ -53,6 +53,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             </li>
             <li>
                 <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
+            </li>
+            <li>
+                <a href="https://caniuse.com">Available Features (caniuse)</a>
             </li>
         </ul>
     </li>
