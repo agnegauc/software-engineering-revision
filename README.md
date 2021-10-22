@@ -19,39 +19,51 @@
 
 Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again and creating and solving various revision exercises to properly understand these topics. It was renewed in 2021 so a lot of useful new information should be there.
     
-<b>Important theory topics:</b>
-
 <b>Web Development</b>
 <ul>
-    <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox.</li>
     <li>
-        <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
-    <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
+        <b>Best practises</b>
+        <ul>
+            <li>
+                <a href='https://javascript.info/structure'>Semicolons in every line</a>
+            </li>
+            <li>
+                <a href='https://javascript.info/strict-mode'>"use strict";</a>
+            </li>
+        </ul>
     </li>
     <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
+        <b>Extra:</b>
+        <ul>
+            <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox.</li>
+            <li>
+                <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
+            </li>
+            <li>
+                <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
+            </li>
+            <li>
+                <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
+            </li>
+            <li>
+                <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
+            </li>
+        </ul>
     </li>
     <li>
-        <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
-    </li>
-    <li>
-        <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
-    </li>
-    <li>
-        <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
+        <b>Theory:</b>
+        <ul>
+            <li>
+                Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
+            </li>
+        </ul>
     </li>
 </ul>
-
-<b>Theory:</b>
-<ul>
-    <li>
-        Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
-    </li>
-</ul>
-
-<b>Extra revision:</b>
-
 <ul>
     <li>
         Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> will NOT work. 
