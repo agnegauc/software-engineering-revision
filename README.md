@@ -40,7 +40,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             <li>
                 <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
             <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data structures & their limits</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
             </li>
             <li>
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
@@ -56,6 +56,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             </li>
             <li>
                 <a href="https://caniuse.com">Available Features (caniuse)</a>
+            </li>
+            <li>
+                <a href="https://javascript.info/types#bigint-type">A BigInt value is created by appending n to the end of an integer</a>
             </li>
         </ul>
     </li>
