@@ -63,16 +63,41 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             <li>
                 <a href="https://javascript.info/types#bigint-type">A BigInt value is created by appending n to the end of an integer</a>
             </li>
-        </ul>
-    </li>
-    <li>
-        <b>Theory:</b>
-        <ul>
             <li>
-                Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
+                <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
+            </li>
+            <li>
+                <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
+                    Common HTML entities used for typography
+                </a>
             </li>
         </ul>
-    </li>
+        <li>
+            <b>Theory:</b>
+            <ul>
+                <li>
+                    Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
+                </li>
+                <li>
+                    Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>React Deployment:</b>
+                <ul>
+                    <li>
+                        <strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
+                    </li>
+                    <li>
+                        <strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
+                    </li>
+                    <li>
+                        <strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
+                    </li>
+                </ul>
+        </li>
+    </ul>
 </ul>
 <ul>
     <li>
@@ -89,11 +114,6 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     </li>
     <li>
         Methods have access to 'this'.
-    </li>
-    <li>
-        const objCopy = {...obj};
-        <br/>
-        However, the spread operator only copies the properties and ignores the prototype chain if I understand it properly in '<strong>9-DS-modern-operators-strings.js</strong>'
     </li>
 </ul>
 
@@ -143,29 +163,8 @@ const recursion = (el, amount = 4) => {
 <h3>General</h3>
 <ul>
     <li>Paradigms (OOP, Procedural, Functional) - approach of structuring code which directs the coding technique.</li>
-    <li>Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".</li>
-    <li><a href="https://github.com/trekhleb/javascript-algorithms">Algorithms' comparison</a></li> 
 </ul>
 
-<h3>Front end and JS related (e.g. React):</h3>
-<ul>
-    <li>
-        <strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
-    </li>
-        <li><strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
-    </li>
-        <li><strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
-    </li>
-        <li><strong>CSS3 vs CSS</strong>: faster, can be split into modules, has transitions, transformations, animations, supports responsive design and media queries.
-    </li>
-        <li><strong>HTML5 vs HTML4</strong>: it can draw shapes, handle inaccurate syntax, supports multimedia tags, WebSQL, web storage, localStorage.
-    </li>
-    <li>
-        <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
-            <strong>Common HTML entities used for typography</strong>
-        </a>
-    </li>
-</ul>
 
 <h3>Sources:</h3>
 <ul>
