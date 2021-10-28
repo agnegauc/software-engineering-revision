@@ -6,9 +6,6 @@
     <li>Algorithms:</li>
     <ul>
         <li>
-            <a href='https://www.jenniferbland.com/time-complexity-analysis-in-javascript/'>Algorithm Time Complexity & Examples</a> 
-        </li>    
-        <li>
             <a href='https://en.wikipedia.org/wiki/Time_complexity'>Time complexity - Wikipedia</a>
         </li>
     </ul>
@@ -41,14 +38,6 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
         <ul>
             <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox.</li>
             <li>
-                <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
-            <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
-            </li>
-            <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
-            </li>
-            <li>
                 <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
             </li>
             <li>
@@ -61,10 +50,21 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://caniuse.com">Available Features (caniuse)</a>
             </li>
             <li>
-                <a href="https://javascript.info/types#bigint-type">A BigInt value is created by appending n to the end of an integer</a>
+                <a href='https://www.jenniferbland.com/time-complexity-analysis-in-javascript/'>Algorithm Time Complexity & Examples (Javascript)</a> 
+            </li>    
+            <li>
+                <a href='https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168'>Time Complexities Of Common Array Operations In JavaScript</a>
             </li>
             <li>
                 <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
+            </li>
+            <li>
+                <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
             </li>
             <li>
                 <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
