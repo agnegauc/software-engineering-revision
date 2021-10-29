@@ -106,29 +106,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         Heap - objects are stored in memory.
     </li>
-    <li>
-        Temporal dead zone (until variable x) - everything from the scope start until x is declared.
-    </li>
-    <li>
-        A method's 'this' points to the object.
-    </li>
-    <li>
-        Methods have access to 'this'.
-    </li>
 </ul>
-
-<h3>Type coercion:</h3>
-<p>Javascript automatically converts data types so the code works, for example:</p>
-
-```javascript
-console.log("I'm " + 26 + "years old");
-console.log("23" * "2"); // => 46
-
-let n = "1" + 1;
-n = n - 1;
-
-console.log(n); // => 10
-```
 
 <h3>Recursion: HTML tree traversal (ES6+, DOM)</h3>
 <div>
