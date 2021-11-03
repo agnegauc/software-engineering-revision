@@ -73,6 +73,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
             </li>
             <li>
+                <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
+            </li>
+            <li>
                 <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
                     Common HTML entities used for typography
                 </a>
