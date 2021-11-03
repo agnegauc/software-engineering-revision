@@ -82,6 +82,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
             </li>
             <li>
+                 <a href='https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability'>any, unknown, object, void, undefined, null, and never assignability.</a>
+            </li>
+            <li>
                 <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
                     Common HTML entities used for typography
                 </a>
