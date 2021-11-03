@@ -62,6 +62,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
             </li>
             <li>
+                <a href='https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/'>Data Structures in JavaScript: Arrays, HashMaps, and Lists.</a>
+        </li>
+            <li>
                 <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
             <li>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
