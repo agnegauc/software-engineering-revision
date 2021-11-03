@@ -67,6 +67,12 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
             </li>
             <li>
+                <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
+            </li>
+            <li>
+                <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
+            </li>
+            <li>
                 <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>
                     Common HTML entities used for typography
                 </a>
