@@ -8,6 +8,9 @@
         <li>
             <a href='https://en.wikipedia.org/wiki/Time_complexity'>Time complexity - Wikipedia</a>
         </li>
+        <li>
+            <a href='https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation/'>All loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).</a>
+        </li>
     </ul>
     
 </ul
