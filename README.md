@@ -85,6 +85,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
             </li>
             <li>
+                <a href="https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724">React Class Component Lifecycle into hooks</a>
+            </li>
+            <li>
                  <a href='https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability'>any, unknown, object, void, undefined, null, and never assignability.</a>
             </li>
             <li>
