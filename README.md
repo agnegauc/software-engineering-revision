@@ -88,6 +88,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724">React Class Component Lifecycle into hooks</a>
             </li>
             <li>
+                <a href="https://stackoverflow.com/a/55768105">React Class Component Lifecycle into hooks #2</a>
+            </li>
+            <li>
                  <a href='https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability'>any, unknown, object, void, undefined, null, and never assignability.</a>
             </li>
             <li>
