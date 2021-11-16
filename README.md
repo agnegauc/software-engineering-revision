@@ -74,6 +74,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             </li>
             <li>
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
+            </li>            
+            <li>
+                <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention>
             </li>
             <li>
                 <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
