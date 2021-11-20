@@ -88,6 +88,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html">v8 memory quiz</a>
             </li>
             <li>
+                <a href="https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html">JS Data Types' Size</a>
+            </li>
+            <li>
                 <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
             </li>
             <li>
