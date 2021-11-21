@@ -37,6 +37,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             <li>
                 <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
             </li>
+            <li>
+                <a href="https://javascript.info/function-basics#function-naming">Function naming </a>
+            </li>
         </ul>
     </li>
     <li>
