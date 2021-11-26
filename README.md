@@ -45,7 +45,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         <b>Extra:</b>
         <ul>
-            <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox.</li>
+            <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox & safari.</li>
             <li>
                 <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
             </li>
