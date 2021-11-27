@@ -53,6 +53,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
             </li>
             <li>
+                <a href="https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c">interface vs type</a>
+            </li>
+            <li>
                 <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
             </li>
             <li>
@@ -143,7 +146,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
         Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> will NOT work. 
     </li>
     <li>
-        Heap - objects are stored in memory.
+        Heap stores variables.
     </li>
 </ul>
 
