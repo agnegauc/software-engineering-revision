@@ -26,23 +26,6 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
 <p>This section is related to all fields of web development. <i>However, it is focused on HTML, CSS, JS & TS.</i></p>
 <ul>
     <li>
-        <b>Best practises</b>
-        <ul>
-            <li>
-                <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>
-            </li>
-            <li>
-                <a href='https://javascript.info/strict-mode'>"use strict";</a>
-            </li>
-            <li>
-                <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
-            </li>
-            <li>
-                <a href="https://javascript.info/function-basics#function-naming">Function naming </a>
-            </li>
-        </ul>
-    </li>
-    <li>
         <b>Extra:</b>
         <ul>
             <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox & safari.</li>
@@ -85,6 +68,9 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
                 <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention>
             </li>
             <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model">Object Model</a>
+            </li>
+            <li>
                 <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
             </li>
             <li>
@@ -118,7 +104,7 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
             <b>Theory:</b>
             <ul>
                 <li>
-                    Javascript functions run from the call stack. JS is single threaded so only 1 task at a time.
+                    Javascript functions run from the call stack. JS is single threaded so only 1 task at a time. Though async compensates any performance issues in case of requests.
                 </li>
                 <li>
                     Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".
@@ -148,14 +134,28 @@ Completing the https://www.udemy.com/course/the-complete-javascript-course/ cour
     <li>
         Heap stores variables.
     </li>
+     <li>
+        <b>Best practises</b>
+        <ul>
+            <li>
+                <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>
+            </li>
+            <li>
+                <a href='https://javascript.info/strict-mode'>"use strict";</a>
+            </li>
+            <li>
+                <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
+            </li>
+            <li>
+                <a href="https://javascript.info/function-basics#function-naming">Self explanatory function naming</a>
+            </li>
+        </ul>
+    </li>
 </ul>
 
-<h3>Recursion: HTML tree traversal (ES6+, DOM)</h3>
+<h3>Recursion: HTML tree traversal</h3>
 <div>
-    <p>
-        Check if the element has a child element and call the function with the leftmost child and repeat this step with its children until no leftmost child exists. Move up by 1 parent and call the function with the child that is on the right side (if leftmost was 0, then call with [1...; children.length)).
-    </p>
-
+   
 ```javascript
 const recursion = (el, amount = 4) => {
   const prefix = "-".repeat(amount),
