@@ -19,7 +19,7 @@
 </ul
 
 <p><b>Web Development</b></p>
-<p>Mainly focused on HTML, CSS, JS & TS.</i></p>
+<p>Mainly focused on TypeScript & JavaScript.</i></p>
 <ul>
     <li>
         <b>Extra:</b>
