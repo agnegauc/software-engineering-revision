@@ -97,7 +97,7 @@
             </li>
             <li>
                 <a href='https://stackoverflow.com/a/22289982'>
-                    <b>Array.isArray</b> > <b>instanceof Array</b>
+                    Array.isArray > instanceof Array
                 </a>
             </li>
         </ul>
@@ -130,7 +130,7 @@
 </ul>
 <ul>
     <li>
-        Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> will NOT work. 
+        Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> won't work. 
     </li>
     <li>
         Heap stores variables.
