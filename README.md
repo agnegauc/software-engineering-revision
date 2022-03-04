@@ -18,10 +18,6 @@
     
 </ul
 
-
-
-Completing the https://www.udemy.com/course/the-complete-javascript-course/ course again and creating and solving various revision exercises to properly understand these topics. It was renewed in 2021 so a lot of useful new information should be there.
-    
 <p><b>Web Development</b></p>
 <p>Mainly focused on HTML, CSS, JS & TS.</i></p>
 <ul>
