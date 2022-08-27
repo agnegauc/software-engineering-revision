@@ -159,34 +159,6 @@
     </li>
 </ul>
 
-<h3>Recursion: HTML tree traversal</h3>
-<div>
-   
-```javascript
-const recursion = (el, amount = 4) => {
-  const prefix = "-".repeat(amount),
-    elDetailed = `${el.nodeName.toLowerCase()}${el.id && " #" + el.id}${
-      el.className && " ." + el.className
-    }`;
-
-  console.log(`${prefix} recursion(${elDetailed})`);
-  console.log(el);
-
-  for (let i = 0; i < el.children.length; i++) {
-    console.log(
-      `${prefix} ${elDetailed} has another child therefore another 'recursion' will be called`
-    );
-
-    recursion(el.children[i], amount + 4);
-  }
-
-  return console.log(`${prefix} RETURNED: recursion(${elDetailed})`);
-};
-```
-
-</div>
-   
-
 
 <h3>Sources:</h3>
 <ul>
