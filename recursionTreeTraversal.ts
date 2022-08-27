@@ -40,6 +40,4 @@ doRecursion(document.getElementsByTagName('body')[0])
         </main>
     </body>
 </html>
-
-
 */
