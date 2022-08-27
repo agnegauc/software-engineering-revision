@@ -6,7 +6,7 @@
     <li>Algorithms:</li>
     <ul>
         <li>
-            <a href='https://github.com/skjha1/Data-Structure-Algorithm-Programs'>Data Structure & Algorithms</a>
+            <a href='https://github.com/skjha1/Data-Structure-Algorithm-Programs'>Data Structure & Algorithms: examples and time complexity</a>
         </li>
         <li>
             <a href='https://en.wikipedia.org/wiki/Time_complexity'>Time complexity theory</a>
@@ -15,10 +15,15 @@
             <a href='https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation/'>All loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).</a>
         </li>
     </ul>
+    <li>
+        <a href="https://javascript.info/function-basics#function-naming">Self explanatory function naming.</a>
+    </li>
+    <li>Paradigms (OOP, procedural, functional) - approach of structuring code which directs the coding technique.</li>
+
     
 </ul
 
-<p><b>Web Development</b></p>
+<p><b>Front-End & Back-End</b></p>
 <p>Mainly focused on TypeScript & JavaScript.</i></p>
 <ul>
     <li>
@@ -58,7 +63,7 @@
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
             </li>
             <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values (!)</a>
             </li>            
             <li>
                 <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention>
@@ -130,25 +135,25 @@
 </ul>
 <ul>
     <li>
-        Hoisting lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> won't work. 
+        <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> won't work. 
     </li>
     <li>
-        Heap stores variables.
+        The heap stores variables in JavaScript.
     </li>
      <li>
-        <b>Best practises</b>
+        <b>Best practises:</b>
         <ul>
             <li>
-                <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>
+                <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>. Can be achieved with <a href="https://prettier.io/">Prettier</a>.
             </li>
             <li>
-                <a href='https://javascript.info/strict-mode'>"use strict";</a>
+                <a href='https://javascript.info/strict-mode'>"use strict";</a> for JavaScript <a href='https://stackoverflow.com/a/31392947'>as TypeScript typically inserts it</a>.
             </li>
             <li>
                 <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
             </li>
             <li>
-                <a href="https://javascript.info/function-basics#function-naming">Self explanatory function naming</a>
+                <a href="https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994">Don't use `var`.</a>
             </li>
         </ul>
     </li>
@@ -180,16 +185,11 @@ const recursion = (el, amount = 4) => {
 ```
 
 </div>
-    
-<h3>General</h3>
-<ul>
-    <li>Paradigms (OOP, Procedural, Functional) - approach of structuring code which directs the coding technique.</li>
-</ul>
+   
 
 
 <h3>Sources:</h3>
 <ul>
     <li>https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90</li>
-    <li>https://www.udemy.com/course/the-complete-javascript-course</li>
     <li>https://google.github.io/styleguide/jsguide.html</li>
 </ul>
