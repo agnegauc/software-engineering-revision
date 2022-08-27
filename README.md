@@ -1,7 +1,7 @@
 # Software Engineering revision
 
-
 <b>General</b>
+
 <ul>
     <li>Algorithms:</li>
     <ul>
@@ -56,32 +56,21 @@
             </li>
             <li>
                 <a href='https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/'>Data Structures in JavaScript: Arrays, HashMaps, and Lists.</a>
-        </li>
+            </li>
             <li>
-                <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
-            <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types (8) & their limits</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types & their limits</a>
             </li>
             <li>
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values (!)</a>
             </li>            
             <li>
-                <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention>
+                <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention
             </li>
             <li>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model">Object Model</a>
             </li>
             <li>
-                <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
-            </li>
-            <li>
                 <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
-            </li>
-            <li>
-                <a href="https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html">v8 memory quiz</a>
-            </li>
-            <li>
-                <a href="https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html">JS Data Types' Size</a>
             </li>
             <li>
                 <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
@@ -105,15 +94,27 @@
                     Array.isArray > instanceof Array
                 </a>
             </li>
+            <li>
+                <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
+            </li>
+            <li>
+                <a href="https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html">v8 memory quiz</a>
+            </li>
+            <li>
+                <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
+            </li>
+            <li>
+                <a href="https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html">JS v8 engine data types' size</a>
+            </li>
         </ul>
         <li>
             <b>Theory:</b>
             <ul>
                 <li>
-                    Javascript functions run from the call stack. JS is single threaded so only 1 task at a time. Though async compensates any performance issues in case of requests.
+                    JavaScript functions run from the call stack. JS is single threaded so only 1 task at a time. Though async compensates any performance issues in case of requests.
                 </li>
                 <li>
-                    Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".
+                    Arrow functions don't bind their own <b>this</b>. Instead, they inherit <b>this</b> from the parent scope which is called <a href='https://stackoverflow.com/a/1047491'>lexical scoping</a>.
                 </li>
             </ul>
         </li>
@@ -147,13 +148,13 @@
                 <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>. Can be achieved with <a href="https://prettier.io/">Prettier</a>.
             </li>
             <li>
-                <a href='https://javascript.info/strict-mode'>"use strict";</a> for JavaScript <a href='https://stackoverflow.com/a/31392947'>as TypeScript typically inserts it</a>.
+                <a href='https://javascript.info/strict-mode'>"use strict";</a> for JavaScript <a href='https://stackoverflow.com/a/31392947'>as TypeScript typically inserts it.</a>
             </li>
             <li>
                 <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
             </li>
             <li>
-                <a href="https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994">Don't use `var`.</a>
+                <a href="https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994">Don't use <b>var</b>. Use <b>const</b> & <b>let</b> (ES6).</a>
             </li>
         </ul>
     </li>
