@@ -1,6 +1,6 @@
 # Software Engineering revision
 
-<b>General</b>
+**General**
 
 <ul>
     <li>Algorithms:</li>
@@ -133,21 +133,17 @@
 </li>
 </ul>
 
-<b>React Deployment:</b>
+### React Deployment:
 
-<ul>
-<li>
-<strong>launch</strong>: https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
-</li>
-<li>
-<strong>error refreshing / </strong>: https://ui.dev/react-router-cannot-get-url-refresh/
-</li>
-<li>
-<strong>http to https</strong>: https://serversforhackers.com/c/redirect-http-to-https-nginx
-</li>
-</ul>
+- [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
+- [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
+- [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
 
-<h3>Sources:</h3>
+### Handy solutions:
+- [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
+- [Remove accents from strings](https://npm.io/package/remove-accents)
+
+### Sources:
 <ul>
     <li>https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90</li>
     <li>https://google.github.io/styleguide/jsguide.html</li>
