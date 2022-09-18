@@ -1,6 +1,6 @@
 # Software Engineering revision
 
-**General**
+### General
 
 <ul>
     <li>Algorithms:</li>
@@ -20,9 +20,10 @@
     </li>
     <li>Paradigms (OOP, procedural, functional) - approach of structuring code which directs the coding technique.</li>
 
-</ul
+</ul>
 
-<p><b>Front-End & Back-End</b></p>
+## Front-End & Back-End
+
 <p>Mainly focused on TypeScript & JavaScript.</i></p>
 <ul>
     <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox & safari.</li>
@@ -116,7 +117,7 @@
     </li>
 </ul>
 
-<b>Best practises:</b>
+## Best practises:
 
 <ul>
 <li>
@@ -133,17 +134,17 @@
 </li>
 </ul>
 
-### React Deployment:
+## React Deployment:
 
 - [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
 - [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
 - [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
 
-### Handy solutions:
+## Handy solutions:
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
 - [Remove accents from strings](https://npm.io/package/remove-accents)
 
-### Sources:
+## Sources:
 <ul>
     <li>https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90</li>
     <li>https://google.github.io/styleguide/jsguide.html</li>
