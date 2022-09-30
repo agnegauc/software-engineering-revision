@@ -13,6 +13,4 @@ app.use("/date", dateRouter);
 app.use("/number", numberRouter);
 app.use("/__debug", debugRouter);
 
-app.listen(PORT, "172.20.10.2", () =>
-  console.log(`Listening to port ${PORT}.`)
-);
+app.listen(PORT, "YourIPV4", () => console.log(`Listening to port ${PORT}.`));

@@ -16,7 +16,7 @@
       "backend": [
         {
           "url_pattern": "/__debug/post",
-          "host": ["172.20.10.2:3001"],
+          "host": ["YourIPV4:3001"],
           "encoding": "string",
           "extra_config": {
             "backend/http": {
