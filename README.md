@@ -134,6 +134,9 @@
 </li>
 </ul>
 
+## API solutions & gateways:
+- [KrakenD](https://www.krakend.io/): selective parts of REST endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
+
 ## React Deployment:
 
 - [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)

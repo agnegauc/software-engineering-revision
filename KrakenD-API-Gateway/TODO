@@ -1,0 +1,3 @@
+simple working example of KrakenD returning not whole response body
+
+docker so that we do not need to hardcore the IP 
