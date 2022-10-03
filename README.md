@@ -2,31 +2,17 @@
 
 ### General
 
-<ul>
-    <li>Algorithms:</li>
-    <ul>
-        <li>
-            <a href='https://github.com/skjha1/Data-Structure-Algorithm-Programs'>Data Structure & Algorithms: examples and time complexity</a>
-        </li>
-        <li>
-            <a href='https://en.wikipedia.org/wiki/Time_complexity'>Time complexity theory</a>
-        </li>
-        <li>
-            <a href='https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation/'>All loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).</a>
-        </li>
-    </ul>
-    <li>
-        <a href="https://javascript.info/function-basics#function-naming">Self explanatory function naming.</a>
-    </li>
-    <li>Paradigms (OOP, procedural, functional) - approach of structuring code which directs the coding technique.</li>
-
-</ul>
+- Algorithms
+    - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
+    - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
+    - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
+- [Semantic function naming](https://javascript.info/function-basics#function-naming)
 
 ## Front-End & Back-End
 
-<p>Mainly focused on TypeScript & JavaScript.</i></p>
+Mainly focused on TypeScript & JavaScript.
 <ul>
-    <li>Pages are sometimes rendered different in various browsers. Before pushing to production, test on chrome and firefox & safari.</li>
+    <li>Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.</li>
     <li>
         <a href="https://javascript.info/arraybuffer-binary-arrays">ArrayBuffer, TypedArray </a>
     </li>
