@@ -6,6 +6,28 @@
   "port": 8080,
   "endpoints": [
     {
+      "endpoint": "/date",
+      "method": "GET",
+      "extra_config": {
+        "qos/ratelimit/router": {
+          "max_rate": 5000
+        }
+      },
+      "backend": [
+        {
+          "url_pattern": "/date",
+          "host": ["YOUR IP:3001"],
+          "allow": ["formattedWeekday"],
+          "encoding": "json",
+          "extra_config": {
+            "backend/http": {
+              "return_error_details": "backend_alias"
+            }
+          }
+        }
+      ]
+    },
+    {
       "endpoint": "/post",
       "method": "POST",
       "extra_config": {
@@ -15,8 +37,8 @@
       },
       "backend": [
         {
-          "url_pattern": "/__debug/post",
-          "host": ["YourIPV4:3001"],
+          "url_pattern": "/greeting",
+          "host": ["172.20.10.2:3001"],
           "encoding": "string",
           "extra_config": {
             "backend/http": {
@@ -38,11 +60,7 @@
         "proxy": {
           "static": {
             "data": {
-              "an_integer": 123,
-              "an_array": ["arr1", "arr2"],
-              "an_object": {
-                "obj": "obj1"
-              }
+              "prices": ["10000", "20000"]
             },
             "strategy": "always"
           }

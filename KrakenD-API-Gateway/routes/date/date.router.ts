@@ -8,7 +8,7 @@ router.route("/").get((_, res) => {
     1
   )}`;
 
-  res.send(formattedWeekday);
+  res.send({ formattedWeekday, weekday });
 });
 
 export { router as dateRouter };
