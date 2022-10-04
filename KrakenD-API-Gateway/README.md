@@ -1,0 +1,1 @@
+If starting KrakenD up in Windows doesn't work, replace "$PWD:" with "." in the "start" script from package.json.

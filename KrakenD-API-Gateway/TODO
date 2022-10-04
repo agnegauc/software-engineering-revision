@@ -1,3 +1,1 @@
-example of an endpoint that returns from two routes and selects partial response bodies.
-
 docker so that we do not need to hardcore the IP 

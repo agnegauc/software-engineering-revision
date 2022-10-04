@@ -4,7 +4,9 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"yarn nodemon index.ts\" \"docker run --name 'krakend-gateway' -p 8080:8080 -v  $PWD:/etc/krakend/ devopsfaith/krakend:watch run --config ./etc/krakend/krakend.json\""
+    "prestart": "docker rm krakend-gateway",
+    "stop": "docker stop krakend-gateway",
+    "start": "concurrently \"yarn nodemon index.ts\" \"docker run --name 'krakend-gateway' -p 8080:8080 -v $PWD:/etc/krakend/ devopsfaith/krakend:watch run --config ./etc/krakend/krakend.json\""
   },
   "dependencies": {
     "concurrently": "^7.4.0",

@@ -4,7 +4,44 @@
   "timeout": "3s",
   "cache_ttl": "300s",
   "port": 8080,
+  "host": ["YOUR_IP:3001"],
   "endpoints": [
+    {
+      "endpoint": "/lottery-number",
+      "method": "GET",
+      "extra_config": {
+        "qos/ratelimit/router": {
+          "max_rate": 5000
+        }
+      },
+
+      "backend": [
+        {
+          "url_pattern": "/date",
+          "allow": ["formattedWeekday"],
+          "encoding": "json",
+          "mapping": {
+            "formattedWeekday": "lotteryDay"
+          }
+        },
+        {
+          "url_pattern": "/number",
+          "allow": ["randomNumber"],
+          "mapping": {
+            "randomNumber": "winningNumber"
+          },
+          "encoding": "json"
+        },
+        {
+          "url_pattern": "/greeting",
+          "method": "POST",
+          "encoding": "string",
+          "mapping": {
+            "content": "message"
+          }
+        }
+      ]
+    },
     {
       "endpoint": "/date",
       "method": "GET",
@@ -16,7 +53,6 @@
       "backend": [
         {
           "url_pattern": "/date",
-          "host": ["YOUR IP:3001"],
           "allow": ["formattedWeekday"],
           "encoding": "json",
           "extra_config": {
@@ -28,7 +64,7 @@
       ]
     },
     {
-      "endpoint": "/post",
+      "endpoint": "/hello",
       "method": "POST",
       "extra_config": {
         "qos/ratelimit/router": {
