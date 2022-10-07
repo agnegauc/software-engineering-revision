@@ -1,0 +1,52 @@
+{
+  "$schema": "https://www.krakend.io/schema/v3.json",
+  "name": "krakend-api-gateway",
+  "host": ["http://host.docker.internal:3001"],
+  "output_encoding": "json",
+  "version": 3,
+  "extra_config": {
+    "security/cors": {
+      "allow_methods": ["POST", "GET", "PATCH"],
+      "allow_origins": ["*"],
+      "expose_headers": ["Content-Length"]
+    }
+  },
+  "endpoints": [
+    {
+      "endpoint": "/lottery-number",
+      "method": "GET",
+      "extra_config": {
+        "qos/ratelimit/router": {
+          "max_rate": 5000
+        }
+      },
+
+      "backend": [
+        {
+          "url_pattern": "/date",
+          "allow": ["formattedWeekday"],
+          "encoding": "json",
+          "mapping": {
+            "formattedWeekday": "lotteryDay"
+          }
+        },
+        {
+          "url_pattern": "/number",
+          "allow": ["randomNumber"],
+          "mapping": {
+            "randomNumber": "winningNumber"
+          },
+          "encoding": "json"
+        },
+        {
+          "url_pattern": "/greeting",
+          "method": "POST",
+          "encoding": "string",
+          "mapping": {
+            "content": "message"
+          }
+        }
+      ]
+    }
+  ]
+}
