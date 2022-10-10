@@ -7,8 +7,7 @@
   "extra_config": {
     "security/cors": {
       "allow_methods": ["POST", "GET", "PATCH"],
-      "allow_origins": ["*"],
-      "expose_headers": ["Content-Length"]
+      "allow_origins": ["*"]
     }
   },
   "endpoints": [
