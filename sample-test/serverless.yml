@@ -1,0 +1,22 @@
+org: jonasgirdzijauskas
+app: sample-test
+service: sample-test
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get
+  greeting:
+    handler: handler.greeting
+    events:
+      - httpApi:
+          path: /
+          method: get
