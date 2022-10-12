@@ -1,0 +1,6 @@
+greeting:
+  handler: handler.greeting
+  events:
+    - httpApi:
+        path: /
+        method: get

@@ -8,15 +8,5 @@ provider:
   runtime: nodejs14.x
 
 functions:
-  hello:
-    handler: handler.hello
-    events:
-      - httpApi:
-          path: /hello
-          method: get
-  greeting:
-    handler: handler.greeting
-    events:
-      - httpApi:
-          path: /
-          method: get
+  - ${file(./hello/hello.yml)}
+  - ${file(./greeting/greeting.yml)}
