@@ -2,46 +2,19 @@ import { DynamoDB, AWSError } from "aws-sdk";
 import express from "express";
 import serverless from "serverless-http";
 import { DocumentClient } from "aws-sdk/lib/dynamodb/document_client";
+import { getUser } from "./getUser";
 
-const USERS_TABLE = `${process.env.USERS_TABLE ?? "users"}-table-${
-  process.env.ENV ?? "production"
-}`; // Todo: terraform /amazon var
-// Todo: rename & refactor
-// Todo: implement schemas
 const app = express();
 const dynamoDbClient = new DynamoDB.DocumentClient();
 
 app.use(express.json());
 
-app.get("/users/:userId", async (req, res) => {
-  const dbParams: DocumentClient.GetItemInput = {
-    TableName: USERS_TABLE,
-    Key: {
-      userId: req.params.userId,
-    },
-  };
-
-  try {
-    const { Item } = await dynamoDbClient.get(dbParams).promise();
-
-    if (Item) {
-      const { userId, firstName } = Item;
-
-      res.json({ userId, firstName });
-    } else {
-      res
-        .status(404)
-        .json({ error: 'Could not find user with provided "userId"' });
-    }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ error: "Could not retreive user" });
-  }
-});
+// todo: router
+app.get("/users/:userId", getUser);
 
 app.get("/users", async (_, res) => {
   const dbParams: DocumentClient.ScanInput = {
-    TableName: USERS_TABLE,
+    TableName: process.env.USERS_TABLE!,
   };
 
   const onScan = (err: AWSError, data: DocumentClient.ScanOutput) => {
@@ -53,7 +26,7 @@ app.get("/users", async (_, res) => {
 
     res.json({ data });
 
-    const shouldContinueScanning = typeof data.LastEvaluatedKey !== "undefined";
+    const shouldContinueScanning = !!data.LastEvaluatedKey;
 
     if (shouldContinueScanning) {
       console.log("Scanning for more...");
@@ -77,7 +50,7 @@ app.post("/users", async (req, res) => {
   }
 
   const params = {
-    TableName: USERS_TABLE,
+    TableName: process.env.USERS_TABLE!,
     Item: {
       userId,
       firstName,
@@ -89,14 +62,12 @@ app.post("/users", async (req, res) => {
 
     res.json({ userId, firstName });
   } catch (error) {
-    console.log(error);
-
-    res.status(500).json({ error: "Could not create user", USERS_TABLE });
+    res.status(500).json({ error: "Could not create user" });
   }
 });
 
 app.use((_, res, ___) => {
-  return res.status(404).json({
+  res.status(404).json({
     error: "Route not found.",
   });
 });

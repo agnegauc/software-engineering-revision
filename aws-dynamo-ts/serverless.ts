@@ -2,8 +2,7 @@ import type { AWS } from "@serverless/typescript";
 import { hello } from "@functions/hello";
 import { users } from "@functions/users"; // TODO: index
 
-const TABLE_NAME = process.env.USERS_TABLE ?? "users"; // todo: terraform?
-const ENV = process.env.ENV ?? "production"; // todo: terraform?
+const USERS_TABLE = "users"; // terraform env var?
 
 const usersTableConfig = {
   Type: "AWS::DynamoDB::Table",
@@ -16,7 +15,7 @@ const usersTableConfig = {
     ],
     KeySchema: [{ AttributeName: "userId", KeyType: "HASH" }],
     BillingMode: "PAY_PER_REQUEST",
-    TableName: `${TABLE_NAME}-table-${ENV}`,
+    TableName: USERS_TABLE,
   },
 };
 
@@ -59,7 +58,7 @@ const serverlessConfiguration: AWS = {
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1",
       NODE_OPTIONS: "--enable-source-maps --stack-trace-limit=1000",
-      USERS_TABLE: TABLE_NAME,
+      USERS_TABLE: "users",
     },
   },
 
@@ -69,7 +68,7 @@ const serverlessConfiguration: AWS = {
   },
   package: { individually: true },
   custom: {
-    tableName: `${TABLE_NAME}-table-${ENV}`,
+    tableName: USERS_TABLE,
 
     esbuild: {
       bundle: true,
