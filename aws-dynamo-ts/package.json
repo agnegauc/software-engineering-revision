@@ -4,32 +4,38 @@
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
   "scripts": {
-    "test": "yarn testHello",
-    "testHello": "yarn sls invoke local -f hello --path src/functions/hello/__tests__/mock.json"
+    "start": "sls offline",
+    "start-no-cache": "docker-compose build --no-cache && docker-compose up --remove-orphans"
   },
   "engines": {
     "node": ">=14.15.0"
   },
   "dependencies": {
-    "@middy/core": "^3.4.0",
-    "@middy/http-json-body-parser": "^3.4.0",
+    "@auth0/auth0-react": "^1.12.0",
+    "axios": "^0.27.2",
+    "serverless-esbuild": "^1.33.0",
     "serverless-express": "^2.0.12",
     "serverless-http": "^3.0.3"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.0.0",
     "@types/aws-lambda": "^8.10.71",
-    "@types/express": "^4.17.14",
-    "@types/node": "^14.14.25",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.8",
+    "@types/node": "^16.11.56",
     "esbuild": "^0.14.11",
     "express": "^4.18.2",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
     "json-schema-to-ts": "^1.5.0",
-    "serverless": "^3.0.0",
-    "serverless-esbuild": "^1.23.3",
+    "prettier": "2.7.1",
+    "serverless": "3.22.0",
+    "serverless-offline": "^9.3.1",
+    "serverless-plugin-typescript": "^2.1.2",
+    "supertest": "^6.2.4",
+    "ts-jest": "^28.0.8",
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.1.3"
-  },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT"
+  }
 }

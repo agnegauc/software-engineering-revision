@@ -1,0 +1,57 @@
+service: aws-dynamo-ts
+org: jonasgirdzijauskas
+app: dynamo-serverless
+configValidationMode: error
+
+frameworkVersion: "3"
+
+custom:
+  tableName: 'users'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:Query
+            - dynamodb:Scan
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+          Resource:
+            - Fn::GetAtt: [ UsersTable, Arn ]
+  environment:
+    SERVERLESS_EXPRESS_PLATFORM: aws
+    PHC_UPSTREAM_BASE_URL: http://localhost:3000
+    USERS_TABLE: ${self:custom.tableName}
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+  - serverless-express
+
+functions:
+  users:
+    handler: src/handler.handle
+    events:
+      - http:
+          method: GET
+          path: /users #/{proxy+}
+
+resources:
+  Resources:
+    UsersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+        TableName: ${self:custom.tableName}

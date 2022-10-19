@@ -1,8 +1,7 @@
 import type { AWS } from "@serverless/typescript";
-import { hello } from "@functions/hello";
-import { users } from "@functions/users"; // TODO: index
+import { users } from "src/users";
 
-const USERS_TABLE = "users"; // terraform env var?
+const USERS_TABLE = "users";
 
 const usersTableConfig = {
   Type: "AWS::DynamoDB::Table",
@@ -20,16 +19,23 @@ const usersTableConfig = {
 };
 
 const serverlessConfiguration: AWS = {
-  service: "aws-dynamo-ts",
+  service: "aws-dynamo-ts-000",
   org: "jonasgirdzijauskas",
   app: "dynamo-serverless",
   configValidationMode: "error",
 
   frameworkVersion: "3",
-  plugins: ["serverless-esbuild"],
+  plugins: ["serverless-esbuild", "serverless-offline"],
   provider: {
     name: "aws",
-    runtime: "nodejs14.x",
+    ecr: {
+      images: {
+        appimage: {
+          path: "./",
+        },
+      },
+    },
+    runtime: "nodejs16.x",
     iam: {
       role: {
         statements: [
@@ -51,35 +57,20 @@ const serverlessConfiguration: AWS = {
       },
     },
 
-    // apiGateway: {
-    //   minimumCompressionSize: 1024,
-    //   shouldStartNameWithService: true,
-    // },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1",
+      SERVERLESS_EXPRESS_PLATFORM: "aws",
       NODE_OPTIONS: "--enable-source-maps --stack-trace-limit=1000",
-      USERS_TABLE: "users",
+      USERS_TABLE: USERS_TABLE,
     },
   },
 
   functions: {
-    hello,
     users,
   },
   package: { individually: true },
   custom: {
     tableName: USERS_TABLE,
-
-    esbuild: {
-      bundle: true,
-      minify: false, // TODO: investigate why not minified
-      sourcemap: true,
-      exclude: ["aws-sdk"],
-      target: "node14",
-      define: { "require.resolve": undefined },
-      platform: "node",
-      concurrency: 10,
-    },
   },
 
   resources: {
