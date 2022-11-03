@@ -1,0 +1,69 @@
+org: jonasgirdzijauskas
+app: test-step-functions
+service: aws-node-express-dynamodb-api-project
+frameworkVersion: '3'
+
+custom:
+  tableName: 'users'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:Query
+            - dynamodb:Scan
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+          Resource:
+            - Fn::GetAtt: [ UsersTable, Arn ]
+  environment:
+    USERS_TABLE: ${self:custom.tableName}
+
+functions:
+  hello:
+    handler: handler.hello
+  api:
+    handler: handler.handler
+    events:
+      - httpApi: '*'
+
+stepFunctions:
+  stateMachines:
+    hellostepfunc2:
+      definition:
+        StartAt: HelloWorld2
+        States:
+          HelloWorld2:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [hello, Arn]
+            End: true
+  activities:
+    - myTask
+    - yourTask
+  validate: true # enable pre-deployment definition validation (disabled by default)
+ 
+
+resources:
+  Resources:
+    UsersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+        TableName: ${self:custom.tableName}
+
+plugins:
+  - serverless-step-functions
+  - serverless-pseudo-parameters
