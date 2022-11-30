@@ -103,6 +103,11 @@ Mainly focused on TypeScript & JavaScript.
     </li>
 </ul>
 
+### React Deployment:
+Prior to deploying React on a server, consider a [serverless approach](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-web-app/static-web-app-with-swa-cli/introduction).
+- [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
+- [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
+- [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
 ## Best practises:
 
 <ul>
@@ -123,11 +128,6 @@ Mainly focused on TypeScript & JavaScript.
 ## API solutions & gateways:
 - [KrakenD](https://www.krakend.io/): selective parts of REST endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
 
-## React Deployment:
-
-- [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
-- [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
-- [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
 
 ## Handy solutions:
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)

@@ -1,25 +1,24 @@
 const doRecursion = (element: Element, symbolAmount = 4) => {
-    const prefix = "-".repeat(symbolAmount);
-    const elementName = element.nodeName.toLowerCase();
+  const prefix = "-".repeat(symbolAmount);
+  const elTag = element.nodeName.toLowerCase();
+  const elClassName = element.className ? ` .${element.className}` : "";
+  const elId = element.id ? ` #${element.id}` : "";
+  const elDescription = `${elTag}${elId}${elClassName}`;
 
-    const elementClassName = element.className ? ` .${element.className}` : "";
-    const elementId = element.id ? ` #${element.id}` : "";
+  console.log(`${prefix} doRecursion(<${elDescription}>)`);
+  console.log(prefix, element);
 
-    const elementDetailed = `${elementName}${elementId}${elementClassName}`;
+  // O(n) to spread, O(n) to iterate. Less readable alternative: for of
+  [...element.children].forEach((childEl) => {
+    console.log(`${prefix} ${elDescription} has children. Do recursion`);
 
-    console.log(`${prefix} doRecursion(<${elementDetailed}>)`);
-    console.log(prefix, element);
+    doRecursion(childEl, symbolAmount + 4);
+  });
 
-    for (const childElement of element.children) {
-        console.log(
-            `${prefix} ${elementDetailed} has a child, 'doRecursion' will be called.`
-        );
-
-        doRecursion(childElement, symbolAmount + 4);
-    }
-
-    console.log(`${prefix} FINISHED: doRecursion(<${elementDetailed}>)`);
+  console.log(`${prefix} FINISHED: doRecursion(<${elDescription}>)`);
 };
+
+doRecursion(document.getElementsByTagName("body")[0]);
 
 /* Sample data:
 
