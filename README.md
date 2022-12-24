@@ -1,5 +1,6 @@
 # Software Engineering Revision
 
+**Table of contents:**
 - [General](#general)
 - [API Solutions \& Gateways](#api-solutions--gateways)
 - [TypeScript, JavaScript \& Front-End](#typescript-javascript--front-end)
