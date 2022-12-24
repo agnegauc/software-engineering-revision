@@ -1,8 +1,8 @@
 # Software Engineering Revision
 
 **Table of contents:**
-- [General](#general)
 - [API Solutions \& Gateways](#api-solutions--gateways)
+- [Algorithms](#algorithms)
 - [TypeScript, JavaScript \& Front-End](#typescript-javascript--front-end)
   - [React](#react)
     - [Deployment](#deployment)
@@ -12,18 +12,14 @@
 
 ---
 
-### General
-
-- Algorithms
-    - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
-    - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
-    - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
-- [Semantic function naming](https://javascript.info/function-basics#function-naming)
-
-
 ## API Solutions & Gateways
 - [KrakenD](https://www.krakend.io/): selective parts of REST endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
     - Downside: not possible to auto-generate typed React hooks from the schema as of December 2022. This can be achieved with GraphQL.
+
+## Algorithms
+  - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
+  - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
+  - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
 
 
 ## TypeScript, JavaScript & Front-End
@@ -53,7 +49,7 @@
 - <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
 - Arrow functions don't bind their own <b>this</b>. Instead, they inherit <b>this</b> from the parent scope which is called <a href='https://stackoverflow.com/a/1047491'>lexical scoping</a>.
 - JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though async compensates any performance issues in case of requests.
-- <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and <i>const/let</i> won't work. 
+- <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and `const` or `let` won't work. 
 - The heap stores values of the variables and references of the objects in JavaScript.
 
 ### React
@@ -62,15 +58,18 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
 - [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
 - [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
+
 ## Best Practises
 
 - <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>. Can be achieved with <a href="https://prettier.io/">Prettier</a>.
 - <a href='https://javascript.info/strict-mode'>"use strict";</a> for JavaScript <a href='https://stackoverflow.com/a/31392947'>as TypeScript typically inserts it.</a>
-- <a href='https://javascript.info/types#the-undefined-value'>Use null to assign an “empty” or “unknown” value to a variable, while undefined is reserved as a default initial value for unassigned things.</a>
-- <a href="https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994">Don't use <b>var</b>. Use <b>const</b> & <b>let</b> (ES6).</a>
+- <a href='https://javascript.info/types#the-undefined-value'>Use `null` to assign an *empty* value. `undefined` is reserved as a value for unassigned things.</a>
+- [Don't use `var`. Use `const` & `let` (ES6)](https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994)
+- [Semantic function naming](https://javascript.info/function-basics#function-naming)
 
 
 ## Situational
+
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
 - [Remove accents from strings for international projects with various user languages](https://npm.io/package/remove-accents)
 - v8 engine (Node, Chrome):
