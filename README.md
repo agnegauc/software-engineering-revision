@@ -12,11 +12,12 @@
 ---
 
 ## API Solutions & Gateways
-- [KrakenD](https://www.krakend.io/): selective parts of REST endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
-    - Downside: not possible to auto-generate typed React hooks from the schema as of December 2022. This can be achieved with GraphQL.
+- [KrakenD](https://www.krakend.io/): selective parts of *REST* endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
+    - Downside: not possible to auto-generate typed React hooks from the schema as of December 2022. This can be achieved with *GraphQL*.
 
 ## Algorithms
   - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
+  - [Algorithm Time Complexity & Examples](https://www.jenniferbland.com/time-complexity-analysis-in-javascript)
   - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
   - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
 
@@ -28,8 +29,7 @@
 - <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
 - <a href="https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c">`Interface` vs `type`</a>
 - <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
-- <a href="https://caniuse.com">Available Features (caniuse)</a>
-- <a href='https://www.jenniferbland.com/time-complexity-analysis-in-javascript/'>Algorithm Time Complexity & Examples (Javascript)</a> 
+- [Available Features on Browsers](https://caniuse.com)
 - <a href='https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168'>Time Complexities Of Common Array Operations In JavaScript</a>
 - <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
 - <a href='https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/'>Data Structures in JavaScript: Arrays, HashMaps, and Lists.</a>
@@ -38,11 +38,11 @@
 - <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention
 - <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
 - <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
-- <a href='https://stackoverflow.com/a/22289982'>`Array.isArray` > `instanceof Array`</a>
+- <a href='https://stackoverflow.com/a/22289982'>`Array.isArray`>`instanceof Array`</a>
 - <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
 - <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
-- JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though async compensates any performance issues in case of requests.
+- JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
 - <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and `const` or `let` won't work. 
 - [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
