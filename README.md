@@ -8,7 +8,6 @@
     - [Deployment](#deployment)
 - [Best Practises](#best-practises)
 - [Situational](#situational)
-- [Sources](#sources)
 
 ---
 
@@ -45,7 +44,9 @@
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
 - JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though async compensates any performance issues in case of requests.
 - <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and `const` or `let` won't work. 
+- [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
+- [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 
 ### React
 - [React Class Component Lifecycle into hooks](https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724)
@@ -63,7 +64,7 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [Use `null` to assign an *empty* value. `undefined` is reserved as a value for unassigned things.](https://javascript.info/types#the-undefined-value)
 - [`const`, `let` instead of `var` (ES6)](https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994)
 - [Semantic function naming](https://javascript.info/function-basics#function-naming)
-
+- [Google JavaScript style guide](https://google.github.io/styleguide/jsguide.html)
 
 ## Situational
 
@@ -74,9 +75,3 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - v8 engine (Node, Chrome):
   - [v8 engine data types' size](https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html)
   - [v8 memory quiz](https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html)
-
-
-
-## Sources
-- https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90
-- https://google.github.io/styleguide/jsguide.html
