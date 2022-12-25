@@ -39,18 +39,17 @@
 - <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention
 - <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
 - <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
-- <a href="https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724">React Class Component Lifecycle into hooks</a>
-- <a href="https://stackoverflow.com/a/55768105">React Class Component Lifecycle into hooks #2</a>
-- <a href='https://www.w3.org/wiki/Common_HTML_entities_used_for_typography'>Common HTML entities used for typography</a>
 - <a href='https://stackoverflow.com/a/22289982'>`Array.isArray` > `instanceof Array`</a>
 - <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
 - <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
-- Arrow functions don't bind their own <b>this</b>. Instead, they inherit <b>this</b> from the parent scope which is called <a href='https://stackoverflow.com/a/1047491'>lexical scoping</a>.
+- Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
 - JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though async compensates any performance issues in case of requests.
 - <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and `const` or `let` won't work. 
 - The heap stores values of the variables and references of the objects in JavaScript.
 
 ### React
+- [React Class Component Lifecycle into hooks](https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724)
+- [React Class Component Lifecycle into hooks #2](https://stackoverflow.com/a/55768105)
 #### Deployment
 Prior to deploying React on a server, consider a [serverless approach](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-web-app/static-web-app-with-swa-cli/introduction).
 - [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
@@ -68,9 +67,10 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 
 ## Situational
 
+- [Object Model: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
 - [Remove accents from strings for international projects with various user languages](https://npm.io/package/remove-accents)
-- [Object Model: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+- [HTML entities for typography, i.e. `&mdash;`](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography)
 - v8 engine (Node, Chrome):
   - [v8 engine data types' size](https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html)
   - [v8 memory quiz](https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html)
