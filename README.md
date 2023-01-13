@@ -27,7 +27,7 @@
 - Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.</li>
 - <a href="https://javascript.info/arraybuffer-binary-arrays">`ArrayBuffer`, `TypedArray`</a>
 - <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
-- <a href="https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c">`Interface` vs `type`</a>
+- [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
 - <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
 - [Available Features on Browsers](https://caniuse.com)
 - <a href='https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168'>Time Complexities Of Common Array Operations In JavaScript</a>
@@ -47,6 +47,7 @@
 - [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
 - [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- Data from databases should be fetched as readonly because it should not be modified directly. For example: `user: Readonly<TUser>`. 
 
 ### React
 - [React Class Component Lifecycle into hooks](https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724)
@@ -70,6 +71,7 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 
 - [Object Model: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
+- [Git revert to commit](https://stackoverflow.com/a/12049323)
 - [Remove accents from strings for international projects with various user languages](https://npm.io/package/remove-accents)
 - [HTML entities for typography, i.e. `&mdash;`](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography)
 - v8 engine (Node, Chrome):
