@@ -21,11 +21,11 @@
   - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
   - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
 
-
-## TypeScript, JavaScript & Front-End
-
+## Web Applications
 - Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 - [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
+
+## TypeScript, JavaScript
 - [`ArrayBuffer`, `TypedArray`](https://javascript.info/arraybuffer-binary-arrays)
 - [TypeScript Essentials](https://github.com/krzkaczor/ts-essentials)
 - [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
@@ -44,7 +44,7 @@
 - <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
 - JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
-- <a href='https://developer.mozilla.org/en-US/docs/Glossary/Hoisting'>Hoisting</a> lets you use some types of variables and functions before they are declared. For example: <i>var</i> will return undefined, function declarations will work and `const` or `let` won't work. 
+- [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) lets you use some types of variables and functions before they are declared. For example: `var` will return `undefined`, function declarations will work and `const` or `let` won't work. 
 - [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
 - [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
