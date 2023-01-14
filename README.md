@@ -24,6 +24,7 @@
 
 ## Web Applications & Security
 - [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
+- [Implementation of Proper Password Strength Controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls)
 - Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## TypeScript, JavaScript
