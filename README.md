@@ -72,6 +72,7 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [Object Model: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 - [Git undoing merges, dirty merge conflict solution](https://stackoverflow.com/a/2389423)
 - [Git revert to commit](https://stackoverflow.com/a/12049323)
+- [Git commands in one](https://stackoverflow.com/a/35049625)
 - [Remove accents from strings for international projects with various user languages](https://npm.io/package/remove-accents)
 - [HTML entities for typography, i.e. `&mdash;`](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography)
 - v8 engine (Node, Chrome):
