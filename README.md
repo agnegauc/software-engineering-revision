@@ -3,7 +3,8 @@
 **Table of contents:**
 - [API Solutions \& Gateways](#api-solutions--gateways)
 - [Algorithms](#algorithms)
-- [TypeScript, JavaScript \& Front-End](#typescript-javascript--front-end)
+- [Web Applications & Security](#web-applications--security)
+- [TypeScript, JavaScript](#typescript-javascript)
   - [React](#react)
     - [Deployment](#deployment)
 - [Best Practises](#best-practises)
@@ -21,9 +22,9 @@
   - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
   - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
 
-## Web Applications
-- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
+## Web Applications & Security
 - [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
+- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## TypeScript, JavaScript
 - [`ArrayBuffer`, `TypedArray`](https://javascript.info/arraybuffer-binary-arrays)
