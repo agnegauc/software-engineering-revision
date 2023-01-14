@@ -24,9 +24,10 @@
 
 ## TypeScript, JavaScript & Front-End
 
-- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.</li>
-- <a href="https://javascript.info/arraybuffer-binary-arrays">`ArrayBuffer`, `TypedArray`</a>
-- <a href="https://github.com/krzkaczor/ts-essentials">TypeScript Essentials</a>
+- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
+- [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
+- [`ArrayBuffer`, `TypedArray`](https://javascript.info/arraybuffer-binary-arrays)
+- [TypeScript Essentials](https://github.com/krzkaczor/ts-essentials)
 - [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
 - <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
 - [Available Features on Browsers](https://caniuse.com)
