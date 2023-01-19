@@ -27,6 +27,7 @@
   - [Implementation of Proper Password Strength Controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls)
   - [Responses of Authentication Mechanisms](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses)
   - [Avoid publicly exposing primary keys](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#ensure-lookup-ids-are-not-accessible-even-when-guessed-or-cannot-be-tampered-with)
+- [Verify application favicon status](https://realfavicongenerator.net/favicon_checker)
 - Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## TypeScript, JavaScript
