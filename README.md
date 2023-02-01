@@ -3,7 +3,7 @@
 **Table of contents:**
 - [API Solutions \& Gateways](#api-solutions--gateways)
 - [Algorithms](#algorithms)
-- [Web Applications & Security](#web-applications--security)
+- [Web Applications & Systems Security](#web-applications--systems-security)
 - [TypeScript, JavaScript](#typescript-javascript)
   - [React](#react)
     - [Deployment](#deployment)
