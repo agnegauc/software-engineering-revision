@@ -10,7 +10,7 @@ ALTER TABLE products ADD price int;
 
 INSERT into products (id, name, price) VALUES (1, "Web Services",  159);
 INSERT into products (id, name, price) VALUES (2, "Bike",  379);
-INSERT into products (id, name, price) VALUES(3, "iPad", 199);
+INSERT into products (id, name, price) VALUES (3, "iPad", 199);
 
 DELETE FROM products WHERE id = 2;
 UPDATE products SET name="iPad 2020" WHERE name="iPad";
