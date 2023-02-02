@@ -81,6 +81,7 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [Git commands in one](https://stackoverflow.com/a/35049625)
 - [Remove accents from strings for international projects with various user languages](https://npm.io/package/remove-accents)
 - [HTML entities for typography, i.e. `&mdash;`](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography)
+- [MongoDB Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-comparison/)
 - v8 engine (Node, Chrome):
   - [v8 engine data types' size](https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html)
   - [v8 memory quiz](https://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html)
