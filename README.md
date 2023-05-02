@@ -2,6 +2,7 @@
 
 **Table of contents:**
 - [API Solutions \& Gateways](#api-solutions--gateways)
+- [Architecture](#architecture)
 - [Algorithms](#algorithms)
 - [Web Applications & Systems Security](#web-applications--systems-security)
 - [TypeScript, JavaScript](#typescript-javascript)
@@ -15,6 +16,9 @@
 ## API Solutions & Gateways
 - [KrakenD](https://www.krakend.io/): selective parts of *REST* endpoints responses. Higher performance and lower response size and better separation of concerns, i.e.: authentication.
     - Downside: not possible to auto-generate typed React hooks from the schema as of December 2022. This can be achieved with *GraphQL*.
+
+## Architecture
+- [The downstream services are the ones that consume the upstream service. In particular, they depend on the upstream service. The FE is downstream to the BE because it depends on the BE. The BE can exist meaningfully without the FE, but the FE doesn't make sense without the BE.](https://softwareengineering.stackexchange.com/a/312402)
 
 ## Algorithms
   - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
