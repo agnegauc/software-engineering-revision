@@ -9,7 +9,7 @@
 - [TypeScript, JavaScript](#typescript-javascript)
   - [React](#react)
     - [Deployment](#deployment)
-- [Best Practises](#best-practises)
+  - [Best Practises](#best-practises)
 - [Situational](#situational)
 
 ---
@@ -71,7 +71,7 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [Error refreshing /](https://ui.dev/react-router-cannot-get-url-refresh/)
 - [HTTP to HTTPS](https://serversforhackers.com/c/redirect-http-to-https-nginx)
 
-## Best Practises
+### Best Practises
 
 - <a href='https://javascript.info/structure#semicolon'>Semicolons in every line</a>. Can be achieved with <a href="https://prettier.io/">Prettier</a>.
 - <a href='https://javascript.info/strict-mode'>"use strict";</a> for JavaScript <a href='https://stackoverflow.com/a/31392947'>as TypeScript typically inserts it.</a>
