@@ -48,14 +48,14 @@
 - <a href='https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/'>Data Structures in JavaScript: Arrays, HashMaps, and Lists.</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types & their limits</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values (!)</a>
-- <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">JS Memory Management & Leak Prevention
-- <a href="https://v8.dev/blog/array-sort">JS sorting in v8 engine</a>
-- <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">JS array performance in v8 engine</a>
+- <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">Memory Management & Leak Prevention
+- <a href="https://v8.dev/blog/array-sort">Sorting in v8 engine</a>
+- <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">Array performance in v8 engine</a>
 - <a href='https://stackoverflow.com/a/22289982'>`Array.isArray`>`instanceof Array`</a>
 - <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
-- <a href="https://v8.dev/blog/elements-kinds">JS element kinds in v8 engine</a>
+- <a href="https://v8.dev/blog/elements-kinds">Element kinds in v8 engine</a>
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
-- JavaScript functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
+- Functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
 - [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) lets you use some types of variables and functions before they are declared. For example: `var` will return `undefined`, function declarations will work and `const` or `let` won't work. 
 - [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
