@@ -4,8 +4,8 @@
 - [Architecture](#architecture)
   - [Theory](#theory)
   - [API Solutions \& Gateways](#api-solutions--gateways)
-- [Algorithms](#algorithms)
-- [Web Applications & Systems Security](#web-applications--systems-security)
+- [Data Structures & Algorithms](#data-structures--algorithms)
+- [Security](#security)
 - [TypeScript, JavaScript](#typescript-javascript)
   - [React](#react)
     - [Deployment](#deployment)
@@ -23,19 +23,17 @@
     - Downside: not possible to auto-generate typed React hooks from the schema as of December 2022. This can be achieved with *GraphQL*.
 
 
-## Algorithms
+## Data Structures & Algorithms
   - [Data structures & algorithms: examples and time complexity](https://github.com/skjha1/Data-Structure-Algorithm-Programs)
   - [Algorithm Time Complexity & Examples](https://www.jenniferbland.com/time-complexity-analysis-in-javascript)
   - [Time complexity theory](https://en.wikipedia.org/wiki/Time_complexity)
   - [Loops that grow proportionally to the input size have a linear time complexity O(n). If you loop through only half of the array, that’s still O(n).](https://adrianmejia.com/how-to-find-time-complexity-of-an-algorithm-code-big-o-notation)
 
-## Web Applications & Systems Security
+## Security
 - [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
   - [Implementation of Proper Password Strength Controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls)
   - [Responses of Authentication Mechanisms](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses)
   - [Avoid publicly exposing primary keys from the database](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#ensure-lookup-ids-are-not-accessible-even-when-guessed-or-cannot-be-tampered-with)
-- [Verify application favicon status](https://realfavicongenerator.net/favicon_checker)
-- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## TypeScript, JavaScript
 - [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
@@ -80,6 +78,8 @@ Prior to deploying React on a server, consider a [serverless approach](https://l
 - [`const`, `let` instead of `var` (ES6)](https://medium.com/@codingsam/awesome-javascript-no-more-var-working-title-999428999994)
 - [Semantic function naming](https://javascript.info/function-basics#function-naming)
 - [Google JavaScript style guide](https://google.github.io/styleguide/jsguide.html)
+- [Verify application favicon status](https://realfavicongenerator.net/favicon_checker)
+- Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## Situational
 
