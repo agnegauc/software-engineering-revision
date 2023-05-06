@@ -33,15 +33,16 @@
 - [Open Web Application Security Project® (OWASP) Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
   - [Implementation of Proper Password Strength Controls](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#implement-proper-password-strength-controls)
   - [Responses of Authentication Mechanisms](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#authentication-responses)
-  - [Avoid publicly exposing primary keys](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#ensure-lookup-ids-are-not-accessible-even-when-guessed-or-cannot-be-tampered-with)
+  - [Avoid publicly exposing primary keys from the database](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#ensure-lookup-ids-are-not-accessible-even-when-guessed-or-cannot-be-tampered-with)
 - [Verify application favicon status](https://realfavicongenerator.net/favicon_checker)
 - Websites are sometimes rendered different in various browsers due to different engines. Test on Chrome, Firefox & Safari before deploying.
 
 ## TypeScript, JavaScript
+- [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - [`ArrayBuffer`, `TypedArray`](https://javascript.info/arraybuffer-binary-arrays)
 - [TypeScript Essentials](https://github.com/krzkaczor/ts-essentials)
 - [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
-- <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
+- [The Modern JavaScript Tutorial](https://javascript.info/)
 - [Available Features on Browsers](https://caniuse.com)
 - <a href='https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168'>Time Complexities Of Common Array Operations In JavaScript</a>
 - <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
@@ -51,15 +52,15 @@
 - <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">Memory Management & Leak Prevention
 - <a href="https://v8.dev/blog/array-sort">Sorting in v8 engine</a>
 - <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">Array performance in v8 engine</a>
+- [*Array* implementation is similar to *ArrayList* in Java](https://stackoverflow.com/a/20622554)
 - <a href='https://stackoverflow.com/a/22289982'>`Array.isArray`>`instanceof Array`</a>
 - <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
 - <a href="https://v8.dev/blog/elements-kinds">Element kinds in v8 engine</a>
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
+- [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - Functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
 - [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) lets you use some types of variables and functions before they are declared. For example: `var` will return `undefined`, function declarations will work and `const` or `let` won't work. 
-- [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - The heap stores values of the variables and references of the objects in JavaScript.
-- [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - Data from databases should be fetched as readonly because it should not be modified directly. For example: `user: Readonly<TUser>`. 
 
 ### React
