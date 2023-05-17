@@ -37,6 +37,7 @@
 
 ## TypeScript, JavaScript
 - [ECMAScript Language Specification Changelog](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+  - [Concise explanations of new language features with code examples](https://v8.dev/features) 
 - [`ArrayBuffer`, `TypedArray`](https://javascript.info/arraybuffer-binary-arrays)
 - [TypeScript Essentials](https://github.com/krzkaczor/ts-essentials)
 - [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
@@ -48,8 +49,7 @@
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types & their limits</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">Falsy values (!)</a>
 - <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">Memory Management & Leak Prevention
-- <a href="https://v8.dev/blog/array-sort">Sorting in v8 engine</a>
-- <a href="https://firstclassjs.com/under-the-hood-arrays-in-js/">Array performance in v8 engine</a>
+- [`Array.sort` relies on TimSort in the v8 engine. that is based on Insertion Sort and Merge Sort ](https://v8.dev/blog/array-sort)
 - [*Array* implementation is similar to *ArrayList* in Java](https://stackoverflow.com/a/20622554)
 - <a href='https://stackoverflow.com/a/22289982'>`Array.isArray`>`instanceof Array`</a>
 - <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
