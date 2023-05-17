@@ -43,7 +43,7 @@
 - [Use `type` over `interface` unless developing public libraries](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [Available Features on Browsers](https://caniuse.com)
-- <a href='https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168'>Time Complexities Of Common Array Operations In JavaScript</a>
+- [Time Complexities Of Common Array Operations In JavaScript](https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168)
 - <a href="https://github.com/trekhleb/javascript-algorithms">Algorithms & Data Structures in JS</a>
 - <a href='https://adrianmejia.com/data-structures-time-complexity-for-beginners-arrays-hashmaps-linked-lists-stacks-queues-tutorial/'>Data Structures in JavaScript: Arrays, HashMaps, and Lists.</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types & their limits</a>
@@ -52,18 +52,16 @@
 - [`Array.sort` relies on TimSort in the v8 engine. that is based on Insertion Sort and Merge Sort ](https://v8.dev/blog/array-sort)
 - [*Array* implementation is similar to *ArrayList* in Java](https://stackoverflow.com/a/20622554)
 - <a href='https://stackoverflow.com/a/22289982'>`Array.isArray`>`instanceof Array`</a>
-- <a href="https://github.com/lukehoban/es6features">ES6 changes</a>
-- <a href="https://v8.dev/blog/elements-kinds">Element kinds in v8 engine</a>
+- <a href="https://v8.dev/blog/elements-kinds">Array element kinds in v8 engine</a>
 - Arrow functions don't bind their own `this`. Instead, they inherit `this` from the parent scope which is called [lexical scoping](https://stackoverflow.com/a/1047491).
 - [Call Stack & Execution Context](https://medium.com/openmindonline/javascript-under-the-hood-execution-context-b1b2fbf56e90)
 - Functions run from the call stack. JS is single threaded as of December 2022 so only one task runs at a time. Though `async` compensates any performance issues in case of requests.
-- [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) lets you use some types of variables and functions before they are declared. For example: `var` will return `undefined`, function declarations will work and `const` or `let` won't work. 
+- [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) lets you use some types of variables and functions before they are declared. For instance: `var` will return `undefined`, function declarations will work and `const` or `let` won't work. 
 - The heap stores values of the variables and references of the objects in JavaScript.
 - Data from databases should be fetched as readonly because it should not be modified directly. For example: `user: Readonly<TUser>`. 
 
 ### React
 - [React Class Component Lifecycle into hooks](https://stackoverflow.com/questions/53464595/how-to-use-componentwillmount-in-react-hooks/62701724#62701724)
-- [React Class Component Lifecycle into hooks #2](https://stackoverflow.com/a/55768105)
 #### Deployment
 Prior to deploying React on a server, consider a [serverless approach](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-web-app/static-web-app-with-swa-cli/introduction).
 - [Launching a web server](https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7)
